@@ -1,0 +1,42 @@
+.line {
+  padding-bottom: 94px;
+}
+
+.line-list {
+  display: flex;
+}
+
+.line-title,
+.about-title {
+  font-size: 36px;
+  line-height: 42px;
+  text-align: center;
+  letter-spacing: 0.03em;
+  margin-bottom: 50px;
+}
+
+.line-list__item + .line-list__item {
+  margin-left: 30px;
+}
+
+.line-list__item {
+  width: 370px;
+  position: relative;
+}
+
+.line-list__text {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #ffffff;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  background-color: rgba(47, 48, 58, 0.8);
+  width: 100%;
+  padding-top: 27px;
+  padding-bottom: 27px;
+}
